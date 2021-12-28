@@ -47,15 +47,6 @@ class FlatMenuFrame(wx.Frame):
             # self.timer_count = 0
             self.UpdateMainUI()
 
-    def OnSetupStockThreshold(self,event):
-        from StockThresholdSetupDialog import StockThresholdSetupDialog
-        dlg=StockThresholdSetupDialog(self,self,self.mainPANEL.log)
-        dlg.CenterOnScreen()
-        if (dlg.ShowModal() == wx.ID_OK):
-            pass
-            # self.work_zone_Panel.processing_order_panel.tree.NewOrder()
-        dlg.Destroy()
-
     def UpdateMainUI(self):
         self._mb.Destroy()
         self.mainPANEL.Destroy()
