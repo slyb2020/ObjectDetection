@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # _*_ coding: UTF-8 _*_
-VERSION_STRING="20211224A"
+VERSION_STRING="20211228A"
 from MyClass import *
 class FlatMenuFrame(wx.Frame):
     def __init__(self, parent):
